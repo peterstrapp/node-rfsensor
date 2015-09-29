@@ -1,0 +1,32 @@
+{
+  "name": "rfsensor",
+  "version": "0.0.1",
+  "description": "Listen for sensor input on 315Mhz/433Mhz with RCSwitch for the Raspberry Pi",
+  "main": "rfsensor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peterstrapp/node-rfsensor.git"
+  },
+  "keywords": [
+    "rpi",
+    "raspberrypi",
+    "rcswitch",
+    "433",
+    "rf",
+    "wireless"
+  ],
+  "engines": {
+    "node" : ">=0.8"
+  },
+  "author": "Peter Strapp <peter@strapp.co.uk>",
+  "bugs": {
+    "url": "https://github.com/peterstrapp/node-rfsensor/issues"
+  },
+  "homepage": "https://github.com/peterstrapp/node-rfsensor",
+  "dependencies": {
+    "rcswitch-peterstrapp":"~0.3.0"
+  }
+}
